@@ -38,10 +38,11 @@ In the table below we list a number of potential SAR use cases. For the hackatho
 
 ### SAR theory
 Links to lectures or other content explaining SAR principles.
+* [SAR-Training](https://github.com/ASFOpenSARlab/opensarlab-notebooks/tree/master/SAR_Training/English)
 
 ### Existing notebooks
 Links to existing python scripts or jupyter notebooks
-* [ASF OpenSARlan](https://github.com/ASFOpenSARlab/opensarlab-notebooks)
+* [ASF OpenSARlab](https://github.com/ASFOpenSARlab/opensarlab-notebooks)
 
 ## Example data loading
 
