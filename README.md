@@ -4,6 +4,20 @@
 
 Info on the hackathon here
 
+## Table of Contents
+- [Data availability](#data-availability)
+- [Contributing notebooks](#contributing-notebooks)
+- [SAR use cases](#sar-use-cases)
+- [External resources](#external-resources)
+  - [SAR theory](#sar-theory)
+  - [Existing notebooks](#existing-notebooks)
+- [Example data loading](#example-data-loading)
+  - [STAC API](#stac-api)
+  - [DE's Dev Open Data Cube (via Dev Sandbox)](#des-dev-open-data-cube-via-dev-sandbox)
+- [Environment set up](#environment-set-up)
+  - [Cloning the repository](#cloning-the-repository)
+  - [Setting up the environment](#setting-up-the-environment)
+
 ## Data availability
 
 Geoscience Australia's Sentinel-1 data is published across multiple products, one for each polarisation mode used to capture the data.
