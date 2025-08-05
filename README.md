@@ -34,6 +34,15 @@ In the table below we list a number of potential SAR use cases. For the hackatho
 | **Crop classification and yields** | Dual-pol or quad-pol backscatter + coherence. Time series/change detection. C-band | Could enhance DEA land-cover agriculture information. | Experimental. Successful in Wales (Sentinel-1) but coverage higher than Australia’s. <br>[Living Wales approach](https://doi.org/10.3390/rs13050846) | [Assign yourself](https://github.com/users/cbur24/projects/1) |
 | **Soil Moisture** | Backscatter and emissivity | No known DEA value add. | Operational product exists — ESA CCI daily active+passive SAR soil moisture product. <br>[ESA CCI Soil Moisture](https://climate.esa.int/en/projects/soil-moisture/) | [Assign yourself](https://github.com/users/cbur24/projects/1) |
 
+## External resources
+
+### SAR theory
+Links to lectures or other content explaining SAR principles.
+
+### Existing notebooks
+Links to existing python scripts or jupyter notebooks
+* [ASF OpenSARlan](https://github.com/ASFOpenSARlab/opensarlab-notebooks)
+
 ## Example data loading
 
 This repository provides examples for how to load data in two ways:
