@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/GeoscienceAustralia/dea-notebooks/stable/Supplementary_data/banner.png" width="900" alt="Digital Earth Australia logo" />
+<img src="https://raw.githubusercontent.com/cbur24/sentinel-1-hackathon/blob/main/banner.png" width="900" alt="Digital Earth Australia logo" />
 
 # Geoscience Australia's Sentinel-1 Hackathon
 
