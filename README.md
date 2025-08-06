@@ -13,15 +13,15 @@ A number of resources and instruction have been written to help you get started,
 ## Table of Contents
 - [Data availability](#data-availability)
 - [Contributing notebooks](#contributing-notebooks)
-- [External resources](#external-resources)
-  - [SAR theory](#sar-theory)
-  - [Existing notebooks](#existing-notebooks)
 - [Example data loading](#example-data-loading)
   - [STAC API](#stac-api)
   - [DE's Dev Open Data Cube (via Dev Sandbox)](#des-dev-open-data-cube-via-dev-sandbox)
-- [Environment set up](#environment-set-up)
+- [Python environment set up](#python-environment-set-up)
   - [Cloning the repository](#cloning-the-repository)
   - [Setting up the environment](#setting-up-the-environment)
+- [External resources](#external-resources)
+  - [SAR theory](#sar-theory)
+  - [Existing notebooks](#existing-notebooks)
 - [SAR use cases](#sar-use-cases)
 
 ## Data availability
@@ -37,26 +37,6 @@ You can see the distribution of captured data over time and space in the DEA Dev
 Use-case notebooks developed throughout this hackathon should be pushed into the `notebooks` folder within this repo. Create a folder with a simple name describing your project, and then push all notebooks, python scripts, and ancillary data into this folder. This will ensure your work does not clash with another group's project, thereby reducing the chances of git conflicts.  An example has been created under [notebooks/urban_classifier](notebooks/urban_classifier) to demonstrate the pattern.  
 
 > ⚠️ Please use the [DEA-notebooks-template](notebooks/DEA_notebooks_template.ipynb) for creating use case examples, this will ensure less work is required to tidy up and document notebooks if/when it comes time to port them into the `dea-notebooks` repository.
-
-## External resources
-
-### SAR theory
-Links to lectures or other content explaining SAR principles.
-* [SAR-Training](https://github.com/ASFOpenSARlab/opensarlab-notebooks/tree/master/SAR_Training/English)
-
-### Existing notebooks
-Links to existing python scripts or jupyter notebooks
-* **ASF**
-    * [OpenSARlab notebooks](https://github.com/ASFOpenSARlab/opensarlab-notebooks)
-* **Digital Earth Africa**
-    *  [Phenology using Radar Vegetation Index](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Real_world_examples/Phenology_radar.ipynb)
-    *  [Radar urban mapping](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Real_world_examples/Radar_urban_area_mapping.ipynb)
-    *  [Radar water extent](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Real_world_examples/Radar_water_detection.ipynb)
-    *  [Ship Detection](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Real_world_examples/Ship_detection_with_radar.ipynb)
-    *  [Surface miniing detection](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Use_cases/Surface_mining_screening/Surface_mining_screening.ipynb)
-    *  [Sentinel-1 monthly mosaics - datsets description notebook](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Datasets/Sentinel_1_Mosaic.ipynb)
-* **FrontierSI**:
-    * [Coastline extraction with S1](https://github.com/frontiersi/DEAfrica_coastlines_s1)  
 
 ## Example data loading
 
@@ -74,7 +54,7 @@ If you are not a Geoscience Australia employee, you will need to use the STAC AP
 
 * [Datacube-loading-notebook](notebooks/loading_with_datacube.ipynb)
 
-## Environment set up
+## Python environment set up
 
 ### Cloning the repository
 To access and run the iPython notebooks, you will need to clone this repository into your local computing environment, or the DE Dev Sandbox. 
@@ -91,6 +71,34 @@ If using DEA's Sandbox, no environment set up is required.
 If using your own computer to run the STAC API notebook, you will need a Python environment with the required packages. 
 
 You can follow the instructions in the [virtual_env_instructions](virtual_env_instructions.md) to set this up.
+
+## External resources
+
+### SAR theory
+Links to lectures or other content explaining SAR principles.
+* [SAR-Training](https://github.com/ASFOpenSARlab/opensarlab-notebooks/tree/master/SAR_Training/English)
+
+### Existing notebooks
+These links direct to existing jupyter notebooks that use SAR data
+
+* **ASF**
+    * [OpenSARlab notebooks](https://github.com/ASFOpenSARlab/opensarlab-notebooks)
+* **Digital Earth Africa**
+    *  [Phenology using Radar Vegetation Index](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Real_world_examples/Phenology_radar.ipynb)
+    *  [Radar urban mapping](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Real_world_examples/Radar_urban_area_mapping.ipynb)
+    *  [Radar water extent](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Real_world_examples/Radar_water_detection.ipynb)
+    *  [Ship Detection](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Real_world_examples/Ship_detection_with_radar.ipynb)
+    *  [Surface miniing detection](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Use_cases/Surface_mining_screening/Surface_mining_screening.ipynb)
+    *  [Sentinel-1 monthly mosaics - datsets description notebook](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Datasets/Sentinel_1_Mosaic.ipynb)
+* **FrontierSI**:
+    * [Coastline extraction with S1](https://github.com/frontiersi/DEAfrica_coastlines_s1)
+* **ESA/Copernicus**
+  * [LULC toolbox](https://step.esa.int/docs/tutorials/S1TBX%20Landcover%20classification%20with%20Sentinel-1%20GRD.pdf)
+  * [Oil Spill mapping](https://documentation.dataspace.copernicus.eu/APIs/openEO/openeo-community-examples/python/OilSpill/OilSpillMapping.html)
+  * [Radar Vegetation Index](https://documentation.dataspace.copernicus.eu/APIs/openEO/openeo-community-examples/python/RVI/RVI.html)
+  * [ICE Monitoring](https://documentation.dataspace.copernicus.eu/notebook-samples/sentinelhub/ice_monitoring.html)
+* **MS Planetary Computer**
+  * [Flood mapping](https://github.com/microsoft/PlanetaryComputerExamples/blob/main/competitions/s1floods/benchmark_tutorial.ipynb)  
 
 ## SAR use cases
 
