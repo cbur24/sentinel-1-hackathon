@@ -81,7 +81,7 @@ Links to lectures or other content explaining SAR principles.
 ### Existing notebooks
 These links direct to existing jupyter notebooks that use SAR data
 
-* **ASF**
+* **Alaskan Satellite Facility (ASF)**
     * [OpenSARlab notebooks](https://github.com/ASFOpenSARlab/opensarlab-notebooks)
 * **Digital Earth Africa**
     *  [Phenology using Radar Vegetation Index](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Real_world_examples/Phenology_radar.ipynb)
