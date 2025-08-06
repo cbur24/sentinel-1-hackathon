@@ -13,3 +13,7 @@ We have a list of required packages in the `requirement.txt` file. You can insta
 
     $ python3 -m pip install -r /requirements.txt
 
+Once everything has finished installing, you can launch a jupyterlab session by running the following on the command line:
+
+    $ jupyter lab
+
