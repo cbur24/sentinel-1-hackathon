@@ -32,7 +32,7 @@ Info on how and where to push case-study notebooks during the hack.
 
 ## SAR use cases
 
-In the table below we list a number of potential SAR use cases. For the hackathon, you can assign yourself to one of these use case by clicking on the 'assign youself' link, which will take you to the github projects board where you can write you name on the corresponding card.
+In the table below we list a number of potential SAR use cases. For the hackathon, you can assign yourself to one of these use case by clicking on the "Assign youself" link, which will take you to a github projects board where you can click on the corresponding card title and assign yourself within the pop-up box.
 
 | SAR data use | SAR requirements | Added value | Scientific maturity and suitability for operationalisation | Assigned to |
 |--------------|------------------|-------------|------------------------------------------------------------|-------------|
