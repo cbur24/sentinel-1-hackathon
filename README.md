@@ -56,7 +56,17 @@ Links to lectures or other content explaining SAR principles.
 
 ### Existing notebooks
 Links to existing python scripts or jupyter notebooks
-* [ASF OpenSARlab](https://github.com/ASFOpenSARlab/opensarlab-notebooks)
+* **ASF**
+    * [OpenSARlab notebooks](https://github.com/ASFOpenSARlab/opensarlab-notebooks)
+* **Digital Earth Africa**
+    *  [Phenology using Radar Vegetation Index](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Real_world_examples/Phenology_radar.ipynb)
+    *  [Radar urban mapping](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Real_world_examples/Radar_urban_area_mapping.ipynb)
+    *  [Radar water extent](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Real_world_examples/Radar_water_detection.ipynb)
+    *  [Ship Detection](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Real_world_examples/Ship_detection_with_radar.ipynb)
+    *  [Surface miniing detection](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Use_cases/Surface_mining_screening/Surface_mining_screening.ipynb)
+    *  [Sentinel-1 monthly mosaics - datsets description notebook](https://github.com/digitalearthafrica/deafrica-sandbox-notebooks/blob/main/Datasets/Sentinel_1_Mosaic.ipynb)
+* **FrontierSI**:
+    * [Coastline extraction with S1](https://github.com/frontiersi/DEAfrica_coastlines_s1)  
 
 ## Example data loading
 
