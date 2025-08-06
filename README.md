@@ -104,7 +104,7 @@ These links direct to existing jupyter notebooks that use SAR data
 
 In the table below we list a number of potential SAR use cases. For the hackathon, you can assign yourself to one of these project ideas by clicking on the "assign youself" link below, which will take you to a github projects board where you can click on the corresponding card title and assign yourself within the pop-up box.
 
-[Assign yourself to a project idea](https://github.com/users/cbur24/projects/1/views/1)
+⚠️ [Assign yourself to a project idea](https://github.com/users/cbur24/projects/1/views/1)
 
 | SAR data use | SAR requirements | Added value | Scientific maturity and suitability for operationalisation |
 |--------------|------------------|-------------|------------------------------------------------------------|
