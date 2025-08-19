@@ -2,7 +2,7 @@
 
 # Geoscience Australia's Sentinel-1 Hackathon
 
-This **Sentinel‑1 Hackathon** is a collaborative event bringing together Earth Observation scientists and developers from the Digital Earth teams (among others) to explore the power of **Synthetic Aperture Radar (SAR)** for remote sensing mapping applications. Over the course of this two-day hackathon, participants will deepen their skills in Sentinel‑1 theory and analysis, develop practical **use‑case notebooks**, prototype new Sentinel‑1–derived products, and showcase the impact of adding new satellite datasets to the **Digital Earth Australia/Antartica** catalogues. This is an opportunity to experiment, share knowledge, and create tangible outputs that can guide future SAR‑based applications.
+This **Sentinel‑1 Hackathon** is a collaborative event bringing together Earth Observation scientists and developers from the Digital Earth teams (among others) to explore the power of **Synthetic Aperture Radar (SAR)** for remote sensing mapping applications. Over the course of this two-day hackathon, participants will deepen their skills in Sentinel‑1 theory and analysis, develop practical **use‑case notebooks**, prototype new Sentinel‑1–derived products, and showcase the impact of adding new satellite datasets to the **Digital Earth Australia/Antarctica** catalogues. This is an opportunity to experiment, share knowledge, and create tangible outputs that can guide future SAR‑based applications.
 
 A number of resources and instruction have been written to help you get started, use the TOC below to find the resource you need. 
 
