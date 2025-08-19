@@ -6,7 +6,7 @@ This **Sentinel‑1 Hackathon** is a collaborative event bringing together Earth
 
 A number of resources and instruction have been written to help you get started, use the TOC below to find the resource you need. 
 
-**Importantly**, at the bottom of this README is a table outlining potential [SAR use cases](#sar-use-cases), **please use this table to decide which project you would like to persue**, and then use the link provided to assign yourself to a given project - a github projects board has been created to track assignments.
+**Importantly**, at the bottom of this README is a table outlining potential [SAR use cases](#sar-use-cases), **please use this table to decide which project you would like to pursue**, and then use the link provided to assign yourself to a given project - a github projects board has been created to track assignments.
 
 ⚠️ **Please read through this README** before starting work to ensure you are aware of all available resources, and understand how to contribute to this repository.
 
