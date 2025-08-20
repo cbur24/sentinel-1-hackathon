@@ -9,7 +9,6 @@
 results/
 *.joblib
 *.db
-*.geojson
 data/
 s2_gm_tools/build
 s2_gm_tools.egg-info/
