@@ -55,6 +55,13 @@ If you are not a Geoscience Australia employee, you will need to use the STAC AP
 * [Datacube-loading-notebook](notebooks/loading_with_datacube.ipynb)
 
 ## Python environment set up
+If using DEA's Sandbox, no environment set up is required.
+
+If you prefer, you can also **launch a github CodeSpace Jupyterlab** instance by clicking the badge below. The jupyterlab session will contain all the necessary python libraries and the notebooks and code in this repo, but depending on your github account, you may have a limited compute time. Free users get 120 compute hours per month: https://docs.github.com/en/billing/concepts/product-billing/github-codespaces
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cbur24/sentinel-1-hackathon)
+
+To instead use your own environment, follow the instructions below.
 
 ### Cloning the repository
 To access and run the iPython notebooks, you will need to clone this repository into your local computing environment, or the DE Dev Sandbox. 
@@ -64,13 +71,12 @@ In a terminal, navigate to where you wish to keep the repository and run
 git clone https://github.com/cbur24/sentinel-1-hackathon.git
 ```
 
-### Setting up the environment
-
-If using DEA's Sandbox, no environment set up is required.
+### Setting up your own environment
 
 If using your own computer to run the STAC API notebook, you will need a Python environment with the required packages. 
 
 You can follow the instructions in the [virtual_env_instructions](virtual_env_instructions.md) to set this up.
+
 
 ## External resources
 
