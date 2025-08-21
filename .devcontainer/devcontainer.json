@@ -6,7 +6,7 @@
       "installJupyterlab": true
     }
   },
-  "postCreateCommand": "pip3 install --user -r requirements.txt",
+  "postCreateCommand": "pip3 install --user dea-tools==0.4.3",
   "hostRequirements": {
     "cpus": 4,
     "memory": "16gb",
