@@ -12,13 +12,13 @@ A number of resources and instruction have been written to help you get started,
 
 ## Table of Contents
 - [Data availability](#data-availability)
+- [Getting Started and python environment set up](#getting-started-and-python-environment-set-up)
+  - [Cloning the repository](#cloning-the-repository)
+  - [Setting up the environment](#setting-up-your-own-environment)
 - [Contributing notebooks](#contributing-notebooks)
 - [Example data loading](#example-data-loading)
   - [STAC API](#stac-api)
   - [DE's Dev Open Data Cube (via Dev Sandbox)](#des-dev-open-data-cube-via-dev-sandbox)
-- [Python environment set up](#python-environment-set-up)
-  - [Cloning the repository](#cloning-the-repository)
-  - [Setting up the environment](#setting-up-the-environment)
 - [External resources](#external-resources)
   - [SAR theory](#sar-theory)
   - [Existing notebooks](#existing-notebooks)
@@ -31,6 +31,34 @@ You can see the distribution of captured data over time and space in the DEA Dev
 * [VV+VH distribution](https://explorer.dev.dea.ga.gov.au/products/ga_s1_iw_vv_vh_c0)
 * [VV distribution](https://explorer.dev.dea.ga.gov.au/products/ga_s1_iw_vv_c0)
 * [HH distribution](https://explorer.dev.dea.ga.gov.au/products/ga_s1_iw_hh_c0)
+
+## Getting started and python environment set up
+If using DEA's Sandbox, no environment set up is required. Though you will need to clone this repository into your Sandbox (see below).
+
+If you prefer, you can also **launch a github CodeSpace Jupyterlab** instance by clicking the badge below. The jupyterlab session will contain all the necessary python libraries and the notebooks and code in this repo, but depending on your github account, you may have a limited compute time. [Free users](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces) get 120 compute hours per month: 
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cbur24/sentinel-1-hackathon?quickstart=1)
+
+> ⚡ **Note on GitHub Codespaces usage**  
+> This repository is public, so anyone with a GitHub account can launch it in Codespaces using the button above.  
+> When you open a Codespace, the compute time is billed to **your own GitHub account** (using your free monthly allowance or any paid plan you may have).  
+> The repository owner is **not charged** for your Codespaces usage.
+
+To instead use your own environment, follow the instructions below.
+
+### Cloning the repository
+To access and run the iPython notebooks, you will need to clone this repository into your local computing environment, or the DEA Sandbox. 
+
+In a terminal, navigate to where you wish to keep the repository and run
+```
+git clone https://github.com/cbur24/sentinel-1-hackathon.git
+```
+
+### Setting up your own environment
+
+If using your own computer to run the STAC API notebook, you will need a Python environment with the required packages. 
+
+You can follow the instructions in the [virtual_env_instructions](virtual_env_instructions.md) to set this up.
 
 ## Contributing notebooks
 
@@ -53,29 +81,6 @@ If you are not a Geoscience Australia employee, you will need to use the STAC AP
 ### DE's Dev Open Data Cube (via Dev Sandbox)
 
 * [Datacube-loading-notebook](notebooks/loading_with_datacube.ipynb)
-
-## Python environment set up
-If using DEA's Sandbox, no environment set up is required.
-
-If you prefer, you can also **launch a github CodeSpace Jupyterlab** instance by clicking the badge below. The jupyterlab session will contain all the necessary python libraries and the notebooks and code in this repo, but depending on your github account, you may have a limited compute time. Free users get 120 compute hours per month: https://docs.github.com/en/billing/concepts/product-billing/github-codespaces
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cbur24/sentinel-1-hackathon?quickstart=1)
-
-To instead use your own environment, follow the instructions below.
-
-### Cloning the repository
-To access and run the iPython notebooks, you will need to clone this repository into your local computing environment, or the DE Dev Sandbox. 
-
-In a terminal, navigate to where you wish to keep the repository and run
-```
-git clone https://github.com/cbur24/sentinel-1-hackathon.git
-```
-
-### Setting up your own environment
-
-If using your own computer to run the STAC API notebook, you will need a Python environment with the required packages. 
-
-You can follow the instructions in the [virtual_env_instructions](virtual_env_instructions.md) to set this up.
-
 
 ## External resources
 
