@@ -35,7 +35,7 @@ You can see the distribution of captured data over time and space in the DEA Dev
 ## Getting started and python environment set up
 If using DEA's Sandbox, no environment set up is required. Though you will need to clone this repository into your Sandbox (see below).
 
-If you prefer, you can also **launch a github CodeSpace Jupyterlab** instance by clicking the badge below. The jupyterlab session will contain all the necessary python libraries and the notebooks and code in this repo, but depending on your github account, you may have a limited compute time. [Free users](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces) get 120 compute hours per month: 
+🚀 If you prefer, you can also **launch a github CodeSpace Jupyterlab** instance by clicking the badge below. The jupyterlab session will contain all the necessary python libraries and the notebooks and code in this repo, but depending on your github account, you may have a limited compute time. [Free users](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces) get 120 compute hours per month: 
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cbur24/sentinel-1-hackathon?quickstart=1)
 
