@@ -78,6 +78,7 @@ You can follow the instructions in the [virtual_env_instructions](virtual_env_in
 
 ### SAR theory
 Links to lectures or other content explaining SAR principles.
+* [Lecture series on SAR and its applications](https://radar.community.uaf.edu/module-1/#)
 * [SAR-Training](https://github.com/ASFOpenSARlab/opensarlab-notebooks/tree/master/SAR_Training/English)
 
 ### Existing notebooks
