@@ -32,8 +32,6 @@ You can see the distribution of captured data over time and space in the DEA Dev
 * [VV distribution](https://explorer.dev.dea.ga.gov.au/products/ga_s1_iw_vv_c0)
 * [HH distribution](https://explorer.dev.dea.ga.gov.au/products/ga_s1_iw_hh_c0)
 
-<div style="border:2px solid darkgreen; background-color:#e6f4ea; padding:1em; border-radius:8px;">
-
 ## Getting started and python environment set up
 If using DEA's Sandbox, no environment set up is required. Though you will need to clone this repository into your Sandbox (see below).
 
@@ -59,8 +57,6 @@ In a terminal, navigate to where you wish to keep the repository and run
 If using your own computer to run the STAC API notebook, you will need a Python environment with the required packages. 
 
 You can follow the instructions in the [virtual_env_instructions](virtual_env_instructions.md) to set this up.
-
-</div>
 
 ## Contributing notebooks
 
