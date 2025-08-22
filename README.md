@@ -32,6 +32,8 @@ You can see the distribution of captured data over time and space in the DEA Dev
 * [VV distribution](https://explorer.dev.dea.ga.gov.au/products/ga_s1_iw_vv_c0)
 * [HH distribution](https://explorer.dev.dea.ga.gov.au/products/ga_s1_iw_hh_c0)
 
+<div style="border:2px solid darkgreen; background-color:#e6f4ea; padding:1em; border-radius:8px;">
+
 ## Getting started and python environment set up
 If using DEA's Sandbox, no environment set up is required. Though you will need to clone this repository into your Sandbox (see below).
 
@@ -42,7 +44,6 @@ If you prefer, you can also **launch a github CodeSpace Jupyterlab** instance by
 > ⚡ **Note on GitHub Codespaces usage**  
 > This repository is public, so anyone with a GitHub account can launch it in Codespaces using the button above.  
 > When you open a Codespace, the compute time is billed to **your own GitHub account** (using your free monthly allowance or any paid plan you may have).  
-> The repository owner is **not charged** for your Codespaces usage.
 
 To instead use your own environment, follow the instructions below.
 
@@ -50,15 +51,16 @@ To instead use your own environment, follow the instructions below.
 To access and run the iPython notebooks, you will need to clone this repository into your local computing environment, or the DEA Sandbox. 
 
 In a terminal, navigate to where you wish to keep the repository and run
-```
-git clone https://github.com/cbur24/sentinel-1-hackathon.git
-```
+
+`git clone https://github.com/cbur24/sentinel-1-hackathon.git`
 
 ### Setting up your own environment
 
 If using your own computer to run the STAC API notebook, you will need a Python environment with the required packages. 
 
 You can follow the instructions in the [virtual_env_instructions](virtual_env_instructions.md) to set this up.
+
+</div>
 
 ## Contributing notebooks
 
