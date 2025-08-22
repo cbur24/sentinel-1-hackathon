@@ -35,7 +35,7 @@ You can see the distribution of captured data over time and space in the DEA Dev
 ## Getting started and python environment set up
 If using DEA's Sandbox, no environment set up is required. Though you will need to clone this repository into your Sandbox (see below).
 
-🚀 If you prefer, you can also **launch a GitHub CodeSpace Visual Studio Code** instance by clicking the badge below. The session will contain all the necessary python libraries and the notebooks and code in this repo, but depending on your github account, you may have a limited compute time. [Free users](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces) get 120 compute hours per month.
+🚀 If you prefer, you can also **launch a GitHub CodeSpace Visual Studio Code** instance by clicking the badge below. The session will contain all the necessary python libraries and the notebooks and code in this repo.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cbur24/sentinel-1-hackathon?quickstart=1)
 
@@ -44,8 +44,9 @@ If using DEA's Sandbox, no environment set up is required. Though you will need 
 > To **open Jupyterlab** within the vscode session (if you perfer that IDE), in the terminal run `jupyter lab --no-browser --NotebookApp.token=''`, and jupyter lab will open in a seperate browser tab. Note, you may have to **disable any pop-up blockers** in your browser.
 
 > [!WARNING]  
-> This repository is public, so anyone with a GitHub account can launch it in Codespaces using the button above.  
-> When you open a Codespace, the compute time is billed to **your own GitHub account** (using your free monthly allowance or any paid plan you may have).  
+> When you open a Codespace, the compute time is billed to **your own GitHub account** (using your free monthly allowance or any paid plan you may have).
+> [Free users](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces) get 120 compute hours per month. The compute size set up for this repo is **4 cores, 16GB RAM, 15GB of storage.** On a free account, this means you have 30 free hours of usage per month.
+
 
 To instead use your own environment, follow the instructions below.
 
