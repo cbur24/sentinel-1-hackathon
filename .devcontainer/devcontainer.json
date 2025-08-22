@@ -16,6 +16,11 @@
       "onAutoForward": "openBrowser"
     }
   },
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "32gb",
+    "storage": "15gb"
+  },
   "customizations": {
     "vscode": {
       "extensions": [
