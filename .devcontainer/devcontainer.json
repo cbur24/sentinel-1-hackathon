@@ -8,14 +8,6 @@
     }
   },
   "postCreateCommand": "pip install -r requirements.txt",
-  "forwardPorts": [8888],
-  "portsAttributes": {
-    "8888": {
-      "label": "JupyterLab",
-      "onAutoForward": "openBrowser"
-    }
-  },
-  "postStartCommand": "jupyter lab --ip 0.0.0.0 --port 8888 --no-browser --NotebookApp.token=''",
   "customizations": {
     "vscode": {
       "extensions": [
