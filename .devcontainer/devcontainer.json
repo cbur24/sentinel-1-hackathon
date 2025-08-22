@@ -1,5 +1,6 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "name": "Sentinel-1 Hackathon",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
     "ghcr.io/devcontainers/features/python:1": {
       "version": "3.11",
@@ -8,11 +9,6 @@
   },
   "postCreateCommand": "pip install -r requirements.txt",
   "postStartCommand": "jupyter lab --ip 0.0.0.0 --port 8888 --no-browser --NotebookApp.token=''",
-  "hostRequirements": {
-    "cpus": 4,
-    "memory": "16gb",
-    "storage": "32gb"
-  },
   "forwardPorts": [8888],
   "portsAttributes": {
     "8888": {
