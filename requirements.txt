@@ -1,4 +1,3 @@
-dea-tools>0.4
-dea-tools[jupyter]
+dea-tools[jupyter]>0.4
 dask-labextension
 jupyter-resource-usage
