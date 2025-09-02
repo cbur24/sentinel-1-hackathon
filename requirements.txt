@@ -1,3 +1,6 @@
 dea-tools[notebooks]>0.4
 dask-labextension
 jupyter-resource-usage
+shap
+lightgbm
+xgboost
