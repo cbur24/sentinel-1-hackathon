@@ -77,6 +77,7 @@ You can follow the instructions in the [virtual_env_instructions](virtual_env_in
 ### SAR theory
 Links to lectures or other content explaining SAR principles.
 * [SAR-Training](https://github.com/ASFOpenSARlab/opensarlab-notebooks/tree/master/SAR_Training/English)
+* [NASA ARSET Introduction to Synthetic Aperture Radar (SAR) and it's applications, Part 1/3](https://www.youtube.com/watch?v=AUIUpFHgVx0)
 
 ### Existing notebooks
 These links direct to existing jupyter notebooks that use SAR data
