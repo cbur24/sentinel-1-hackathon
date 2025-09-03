@@ -11,18 +11,48 @@ A number of resources and instruction have been written to help you get started,
 ⚠️ **Please read through this README** before starting work to ensure you are aware of all available resources, and understand how to contribute to this repository.
 
 ## Table of Contents
+- [Getting Started and python environment set up](#getting-started-and-python-environment-set-up)
+  - [Cloning the repository](#cloning-the-repository)
+  - [Setting up the environment](#setting-up-your-own-environment)
 - [Data availability](#data-availability)
 - [Contributing notebooks](#contributing-notebooks)
 - [Example data loading](#example-data-loading)
   - [STAC API](#stac-api)
   - [DE's Dev Open Data Cube (via Dev Sandbox)](#des-dev-open-data-cube-via-dev-sandbox)
-- [Python environment set up](#python-environment-set-up)
-  - [Cloning the repository](#cloning-the-repository)
-  - [Setting up the environment](#setting-up-the-environment)
 - [External resources](#external-resources)
   - [SAR theory](#sar-theory)
   - [Existing notebooks](#existing-notebooks)
 - [SAR use cases](#sar-use-cases)
+
+## Getting started and python environment set up
+If using DEA's Sandbox, no environment set up is required. Though you will need to clone this repository into your Sandbox (see below).
+
+🚀 If you prefer, you can also **launch a GitHub CodeSpace** cloud instance by clicking the badge below. The session will contain all the necessary python libraries and the notebooks and code in this repo.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/cbur24/sentinel-1-hackathon?quickstart=1)
+
+> [!TIP]
+> Allow CodeSpaces a few minutes to bootup and for all python libraries to install. 
+> To **open Jupyterlab** within the default VSCode session (if you perfer that IDE), in the terminal run `jupyter lab --no-browser --NotebookApp.token=''`, and jupyter lab will open in a seperate browser tab. Note, you may have to **disable any pop-up blockers** in your browser. Alternatively, you can configure your Github CodeSpaces settings to open Jupyterlab by default; go to [Editor preferences](https://github.com/settings/codespaces).
+
+> [!WARNING]  
+> When you open a Codespace, the compute time is billed to **your own GitHub account** (using your free monthly allowance or any paid plan you may have).
+> [Free users](https://docs.github.com/en/billing/concepts/product-billing/github-codespaces) get 120 compute hours per month. The compute size set up for this repo is **4 cores, 16GB RAM, 15GB of storage.** On a free account, this means you have 30 free hours of usage per month.
+
+To instead use your own environment, follow the instructions below.
+
+### Cloning the repository
+To access and run the iPython notebooks, you will need to clone this repository into your local computing environment, or the DEA Sandbox. 
+
+In a terminal, navigate to where you wish to keep the repository and run
+
+`git clone https://github.com/cbur24/sentinel-1-hackathon.git`
+
+### Setting up your own environment
+
+If using your own computer to run the STAC API notebook, you will need a Python environment with the required packages. 
+
+You can follow the instructions in the [virtual_env_instructions](virtual_env_instructions.md) to set this up.
 
 ## Data availability
 
@@ -54,28 +84,11 @@ If you are not a Geoscience Australia employee, you will need to use the STAC AP
 
 * [Datacube-loading-notebook](notebooks/loading_with_datacube.ipynb)
 
-## Python environment set up
-
-### Cloning the repository
-To access and run the iPython notebooks, you will need to clone this repository into your local computing environment, or the DE Dev Sandbox. 
-
-In a terminal, navigate to where you wish to keep the repository and run
-```
-git clone https://github.com/cbur24/sentinel-1-hackathon.git
-```
-
-### Setting up the environment
-
-If using DEA's Sandbox, no environment set up is required.
-
-If using your own computer to run the STAC API notebook, you will need a Python environment with the required packages. 
-
-You can follow the instructions in the [virtual_env_instructions](virtual_env_instructions.md) to set this up.
-
 ## External resources
 
 ### SAR theory
 Links to lectures or other content explaining SAR principles.
+* [Lecture series on SAR and its applications](https://radar.community.uaf.edu/module-1/#)
 * [SAR-Training](https://github.com/ASFOpenSARlab/opensarlab-notebooks/tree/master/SAR_Training/English)
 * [NASA ARSET Introduction to Synthetic Aperture Radar (SAR) and it's applications, Part 1/3](https://www.youtube.com/watch?v=AUIUpFHgVx0)
 
