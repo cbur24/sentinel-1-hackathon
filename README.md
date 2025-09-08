@@ -78,11 +78,11 @@ If you are not a Geoscience Australia employee, you will need to use the STAC AP
 
 ### STAC API
 
-* [STAC-loading-notebook](notebooks/loading_with_stac.ipynb)
+* [STAC-loading-notebook](notebooks/03_loading_with_stac.ipynb)
 
 ### DE's Dev Open Data Cube (via Dev Sandbox)
 
-* [Datacube-loading-notebook](notebooks/loading_with_datacube.ipynb)
+* [Datacube-loading-notebook](notebooks/04_loading_with_datacube.ipynb)
 
 ## External resources
 
