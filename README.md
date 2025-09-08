@@ -58,9 +58,10 @@ You can follow the instructions in the [virtual_env_instructions](virtual_env_in
 
 Geoscience Australia's Sentinel-1 data is published across multiple products, one for each polarisation mode used to capture the data.
 You can see the distribution of captured data over time and space in the DEA Dev Explorer:
-* [VV+VH distribution](https://explorer.dev.dea.ga.gov.au/products/ga_s1_iw_vv_vh_c0)
-* [VV distribution](https://explorer.dev.dea.ga.gov.au/products/ga_s1_iw_vv_c0)
-* [HH distribution](https://explorer.dev.dea.ga.gov.au/products/ga_s1_iw_hh_c0)
+* [VV+VH distribution](https://explorer.dev.dea.ga.gov.au/products/ga_s1_nrb_iw_vv_vh_0)
+* [VV distribution](https://explorer.dev.dea.ga.gov.au/products/ga_s1_nrb_iw_vv_0)
+* [HH distribution](https://explorer.dev.dea.ga.gov.au/products/ga_s1_nrb_iw_hh_0)
+* [HH+HV distribution](https://explorer.dev.dea.ga.gov.au/products/ga_s1_nrb_iw_hh_hv_0)
 
 ## Contributing notebooks
 
@@ -75,6 +76,10 @@ This repository provides examples for how to load data in two ways:
 * Using DE's dev Open Data Cube, which is only available in DE's Dev Sandbox environment. 
 
 If you are not a Geoscience Australia employee, you will need to use the STAC API approach.
+
+### Basic SAR loading and preparation for analysis
+
+* [Demonstration](notebooks/02_demonstration.ipynb)
 
 ### STAC API
 
