@@ -51,3 +51,4 @@ def apply_lee_filter(data_array, size=7):
         output_dtypes=[data_array.dtype],
     )
     return filtered_data
+
