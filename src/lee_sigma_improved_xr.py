@@ -7,7 +7,7 @@ from typing import Union
 
 def lee_sigma_improved_xr(
     img: xr.Dataset,                         # or xr.DataArray with bands as data variables
-    band_name: str = "VV_gamma0",
+    band_name: str = "VH_gamma0",
     nlooks: Union[str, float] = "number_of_looks",
     win=(9, 9),
     sigma=0.9,
