@@ -3,17 +3,23 @@ from scipy.ndimage import uniform_filter
 import xarray as xr
 
 
-# Adapted from https://stackoverflow.com/questions/39785970/speckle-lee-filter-in-python
 def lee_filter(img, size):
     """
-    Applies the Lee filter to reduce speckle noise in an image.
+    Apply a Lee filter to reduce speckle noise in an individual image.
 
-    Parameters:
-    img (ndarray): Input image to be filtered.
-    size (int): Size of the uniform filter window.
+    Adapted from https://stackoverflow.com/questions/39785970/speckle-lee-filter-in-python
 
-    Returns:
-    ndarray: The filtered image.
+    Parameters
+    ----------
+    img : numpy.ndarray
+        Input image to be filtered.
+    size : int
+        Size of the uniform filter window.
+
+    Returns
+    -------
+    numpy.ndarray
+        The filtered image.
     """
     img_mean = uniform_filter(img, size)
     img_sqr_mean = uniform_filter(img**2, size)
@@ -26,17 +32,21 @@ def lee_filter(img, size):
     return img_output
 
 
-# Define a function to apply the Lee filter to a DataArray
 def apply_lee_filter(data_array, size=7):
     """
-    Applies the Lee filter to the provided DataArray.
+    Apply a Lee filter to each observation in a provided xarray.DataArray.
 
-    Parameters:
-    data_array (xarray.DataArray): The data array to be filtered.
-    size (int): Size of the uniform filter window. Default is 7.
+    Parameters
+    ----------
+    data_array : xarray.DataArray
+        The data array to be filtered.
+    size : int, optional
+        Size of the uniform filter window.
 
-    Returns:
-    xarray.DataArray: The filtered data array.
+    Returns
+    -------
+    xarray.DataArray
+        The filtered data array.
     """
     filtered_data = xr.apply_ufunc(
         lee_filter,
@@ -48,5 +58,6 @@ def apply_lee_filter(data_array, size=7):
         vectorize=True,
         dask="parallelized",
         output_dtypes=[data_array.dtype],
+        keep_attrs=True,
     )
     return filtered_data
