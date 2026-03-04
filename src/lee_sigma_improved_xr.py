@@ -12,7 +12,7 @@ def lee_sigma_improved_xr(
     win=(9, 9),
     sigma=0.9,
     perc=0.02,
-    data_type="amplitude",
+    data_type="intensity",
     verbose=False,
     round_step: float = 0.5,                # round nlooks to nearest step (0.5 by default)
 ) -> xr.DataArray:
@@ -315,3 +315,68 @@ def lee_sigma_improved_xr(
         da_out = xr.DataArray(out, coords=sar_da0.coords, dims=sar_da0.dims, attrs=sar_da0.attrs)
 
     return da_out
+
+
+def lee_sigma_improved_xr_multitime(
+    ds: xr.Dataset,
+    band_name="HH_gamma0",
+    nlooks="number_of_looks",
+    win=(9, 9),
+    sigma=0.9,
+    perc=0.02,
+    data_type="amplitude",
+    verbose=False,
+    round_step=0.5,
+    new_band_name=None,
+):
+    """
+    Apply your original Lee Sigma improved filter across all time slices,
+    writing results as a new band in the xarray Dataset.
+
+    Parameters
+    ----------
+    ds : xr.Dataset
+        Dataset containing [time, y, x] and the SAR band.
+    new_band_name : str, optional
+        Name for the filtered output band (defaults to e.g. HH_gamma0_lee_sigma_improved).
+    """
+
+    if new_band_name is None:
+        new_band_name = f"{band_name}_lee_sigma_improved"
+
+    # collect outputs per time step
+    filtered_list = []
+
+    for t in range(ds.dims.get("time", 1)):
+        if verbose:
+            print(f"Processing time index {t+1}/{ds.dims['time']}")
+
+        # select one time slice
+        ds_t = ds.isel(time=t)
+
+        # run your original function (no changes inside!)
+        filtered_da = lee_sigma_improved_xr(
+            img=ds_t,
+            band_name=band_name,
+            nlooks=nlooks,
+            win=win,
+            sigma=sigma,
+            perc=perc,
+            data_type=data_type,
+            verbose=verbose,
+            round_step=round_step,
+        )
+
+        # assign the correct time coordinate
+        filtered_da = filtered_da.assign_coords(time=ds_t.time)
+
+        filtered_list.append(filtered_da)
+
+    # concatenate along time
+    filtered_all = xr.concat(filtered_list, dim="time")
+
+    # add new band to the dataset
+    ds_out = ds.copy()
+    ds_out[new_band_name] = filtered_all
+
+    return ds_out
